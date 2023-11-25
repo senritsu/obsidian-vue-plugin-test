@@ -2,7 +2,7 @@
 
 This repo demonstrates building an [Obsidian](https://obsidian.md/) plugin using [Vue 3](https://vuejs.org/) and [Vite](https://vitejs.dev/).
 
-Few changes are needed from the standard Vite template. This README will give a concise outline, for a more detailed example check the source code of this repo.
+Few changes are needed from the standard Vite template. This README will give a concise explanation, for a more detailed example check the source code of this repo.
 
 This is the outline of what you need to do:
 
