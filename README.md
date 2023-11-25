@@ -131,9 +131,9 @@ export default defineConfig({
 
 ### Automate dev deployment
 
-To test your plugin, it needs to reside inside the `.obsidian/plugins` directory inside your vault. Copying it there manually is annoying, having your checked-out repo inside there feels gross, so let's just automate it with a minimal Vite plugin. The plugin will just copy the whole `dist` folder to the correct obsidian plugin folder (taken from the manifest) in a post-build step.
+To test your plugin, it needs to reside inside the `.obsidian/plugins` directory inside your vault. Copying it there manually is annoying, having your checked-out repo inside there feels gross, so let's just automate it with a minimal Vite plugin. The plugin will just copy the whole of `dist` to the correct obsidian plugin directory (with the name taken from the manifest) in a post-build step.
 
-Add an `.env.local` file containing an environment variable that points to your local plugins folder
+Add an `.env.local` file containing an environment variable that points to your local plugins directory.
 
 ```env
 OBSIDIAN_PLUGIN_DIRECTORY="/wherever/your/vault/lives/.obsidian/plugins"
