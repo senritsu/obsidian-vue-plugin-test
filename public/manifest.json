@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-vue-plugin-test",
+  "name": "Obsidian Vue Plugin Test",
+  "version": "0.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Proof of concept for bundling an obsidian plugin with Vue+Vite.",
+  "author": "senritsu",
+  "authorUrl": "https://github.com/senritsu"
+}
