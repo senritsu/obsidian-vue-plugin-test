@@ -1,6 +1,6 @@
 # obsidian-vue-plugin-test
 
-This repo demonstrates building an [Obidian](https://obsidian.md/) plugin using [Vue 3](https://vuejs.org/) and [Vite](https://vitejs.dev/).
+This repo demonstrates building an [Obsidian](https://obsidian.md/) plugin using [Vue 3](https://vuejs.org/) and [Vite](https://vitejs.dev/).
 
 Few changes are needed from the standard Vite template. This README will give a concise outline, for a more detailed example check the source code of this repo.
 
