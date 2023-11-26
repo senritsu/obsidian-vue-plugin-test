@@ -187,3 +187,9 @@ pnpm build
 Your plugin should now show up in the Obsidian settings, and if you enable it you should be able to activate your View (using whatever UI or command you registered in your `main.ts`).
 
 With the combination of Vite watch mode, the [Hot Reload](https://github.com/pjeby/hot-reload) plugin for Obsidian, and the custom Vite plugin, you should be able to see changes to the plugin source reflected in Obsidian instantly ⚡.
+
+## Further steps
+
+If you want to use the local Vite dev server for developing your UI, for example to use actual hot reloading (instead of just the automatic rebuild/reload that you can get directly in Obsidian), it would be beneficial to have a separate root component for the dev server and the plugin itself, e.g. `App.vue` mounted in `/src/main.ts` and `PluginApp.vue` mounted in `/src/plugin/main.ts`. This way you can factor out all the Obsidian interactions, since anything you do to interact with the Obsidian plugin and Obsidian itself won't work with the dev server.
+
+Another way to get a similar experience would be to use [Histoire](https://histoire.dev/) or [Storybook](https://storybook.js.org/) for all pure UI development.
